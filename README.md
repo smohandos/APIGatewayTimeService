@@ -9,7 +9,9 @@ It also supports handling user input in the "HH:mm" format, returning the corres
 Example: "08:34" → "It's eight thirty four"
 Special Cases: "12:00" → "It's Midday", "00:00" → "It's Midnight"
 
+
 API Gateway is the front facing application and connects with Time Input Service which in turn connects with Time Conversion Service.
+
 
 Requirements
 
@@ -20,6 +22,7 @@ Requirements
 3. Spring Boot: Framework used for microservice development
 
 4. JUnit: For unit testing
+   
 
 Setup Instructions
 
@@ -44,6 +47,7 @@ mvn spring-boot:run
 
 cd ..
 
+
 Base dir: git clone https://github.com/smohandos/TimeConversionService.git
 
 cd TimeConversionService
@@ -51,6 +55,7 @@ cd TimeConversionService
 mvn clean install
 
 mvn spring-boot:run
+
 
 API Endpoints
 
