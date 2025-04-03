@@ -12,10 +12,14 @@ API Gateway is the front facing application and connects with Time Input Service
 
 Requirements
 
-Java: JDK 8 or above
-Maven: For building and managing the project
-Spring Boot: Framework used for microservice development
-JUnit: For unit testing
+1. Java: JDK 8 or above
+
+2. Maven: For building and managing the project
+
+3. Spring Boot: Framework used for microservice development
+
+4. JUnit: For unit testing
+
 Setup Instructions
 
 1. Clone the repository
