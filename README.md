@@ -23,7 +23,7 @@ Requirements
 
 Setup Instructions
 
-git clone https://github.com/smohandos/APIGatewayTimeService.git
+Base dir: git clone https://github.com/smohandos/APIGatewayTimeService.git
 
 cd APIGatewayTimeService
 
@@ -31,8 +31,10 @@ mvn clean install
 
 mvn spring-boot:run
 
+cd..
 
-git clone https://github.com/smohandos/TimeInputService.git
+
+Base dir: git clone https://github.com/smohandos/TimeInputService.git
 
 cd TimeInputService
 
@@ -40,7 +42,9 @@ mvn clean install
 
 mvn spring-boot:run
 
-git clone https://github.com/smohandos/TimeConversionService.git
+cd ..
+
+Base dir: git clone https://github.com/smohandos/TimeConversionService.git
 
 cd TimeConversionService
 
